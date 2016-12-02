@@ -1,0 +1,9 @@
+def vowel_remove(s):
+      If not s:
+          return s
+      else if s[0].lower() in “aeiou”:
+         return vowel_remove(s[1:])
+      return s[0] + vowel_remove(s[1:])
+
+s <- input (“user input”)
+print (vowel_remove(s))

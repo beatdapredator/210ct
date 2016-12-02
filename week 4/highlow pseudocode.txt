@@ -1,0 +1,21 @@
+def high_low(arr,high,low):
+      left <- 0
+      right <- integer(length(arr))
+      while left < <- right:
+              middle <- integer((left + right) /2)
+              if arr[middle] < <- high and arr[middle] > <- low:
+                    return True
+              else if arr[middle] > high:
+                    right <- middle – 1
+              else if arr[middle] < low:
+                    left <- middle +1
+     return False 
+
+thelist = [empty list]
+for I in the range (numbers 1-30)
+             thelist.append(i*3) // will put in numbers from 1-30 in multiples of 3
+
+a <- integer(input(“user input”)
+b <- integer(input(“user input”)
+j = high_low(thelist,b,a
+print (j)

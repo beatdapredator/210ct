@@ -1,0 +1,11 @@
+def reverse (words):
+       split = split words (“ “)
+       output = “”
+
+       for i in range (length(split)):
+          j = length(split) – i – 1
+          output = output + split[j] + “ “
+       return output
+
+y = reverse(input(“user input”))
+print (y)

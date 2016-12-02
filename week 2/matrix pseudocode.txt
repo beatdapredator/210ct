@@ -1,0 +1,29 @@
+def matrix(o):
+    matrix 1 = list written as matrix with values
+    matrix 2 = list written as matrix with values
+    result = list written as matrix with no values
+
+    if input operator = +:
+       for the elements(i) in the range of the length of matrix 1:
+             for the elements(j) in the range of the length of matrix 1:
+                      result elements[i][j] = matrix 1 elements + matrix 2 elements
+
+   if input operator = -
+      for the elements(i) in the range of the length of matrix 1:
+             for the elements(j) in the range of the length of matrix 1:
+                      result elements[i][j] = matrix 1 elements - matrix 2 elements 
+
+   if input operator = *
+       for the elements(i) in the range of the length of matrix 1:
+             for the elements(j) in the range of the length of matrix 1:
+                      result elements[i][j] = matrix 1 elements * matrix 2 elements
+
+   return matrix
+
+
+
+o = input("operator input by user")
+m = matrix(o)
+print (m)  
+
+my big O notation for task 5 is O(n)

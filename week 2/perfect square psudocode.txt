@@ -1,0 +1,10 @@
+import math
+
+def square-number(square):
+    squarenumber = the squareroot of square
+    squarenumber = floor of square
+    squarenumber = squarenumber^2 (to the power of)
+
+square = a numbered input from the user
+output = square-number(square)
+print (output)
